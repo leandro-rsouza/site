@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+/*    border: 1px solid gray;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.title{
+/*    border: 1px solid black;*/
+    font-family: 'Dosis', 'sans-serif';
+    font-size: 32px;
+    text-align: left;
+    flex: 25%;
+    margin-left: 120px;
+    padding: 10px 0 10px 10px;
+}
+
+.menu{
+/*    border: 1px solid green;*/
+    margin-right: 5%;
+    flex: 55%;
+    list-style-type: none;
+    font-family: 'Arial', 'sans-serif';
+    text-align: right;
+    text-transform: none;
+}
+
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 25%;
+    color: black;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.menu a:hover{
+    color:  rgb(29, 231, 29);
+    transition: all .3s linear 0s;
+}
+
+#btn{
+    border: 1px solid black;
+    margin-right: 90px;
+    border-radius: 50px;
+    padding: 12px;
+}
+
+#btn:hover{
+    background: rgb(29, 231, 29);
+    border: 1px solid white;
+    color: white;
+    transition: all .3s linear 0s;
+}
+
+.header{
+/*    border: 1px solid black;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 15px 0 15px;
+}
+
+.headline{
+/*    border: 1px solid black;*/
+    flex: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 250px;
+}
+
+.headline h1{
+    font-family: 'Dosis', 'sans-serif';
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.headline p{
+    font-family: 'Arial', 'sans-serif';
+    text-align: justify;
+}
+
+.container{
+/*    border: 1px solid green;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 270px;
+    margin-right: 10%;
+    flex: 40%;
+}
+
+.arrow{
+/*    border: 1px solid yellow;*/
+    margin-top: 350px;
+    max-width: 35px;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    transition: all 0.1s ease 0s;
+    transform: scale(1.2,1.2);
+}
+
+#left-arrow{
+    margin-right: 15px;
+}
+
+#right-arrow{
+    margin-left: 15px;
+}
+
+.container figure{
+/*    border: 1px solid pink;*/
+    position: absolute;
+}
+
+.container figure img{
+/*    border: 1px solid pink;*/
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.425);
+    cursor: pointer;
+}
+
+.container figure#img1{
+    top: 30px;
+    right: 60px;
+    transform: rotate(10deg);
+    z-index: 1;
+}
+
+.container figure#img2{
+    top: 20px;
+    right: 120px;
+    transform: rotate(5deg);
+    z-index: 2;
+}
+
+.container figure#img3{
+    z-index: 3;
+}
+
+.container figure#img4{
+    top: 20px;
+    left: 120px;
+    transform: rotate(-5deg);
+    z-index: 2;
+}
+
+.container figure#img5{
+    top: 30px;
+    left: 60px;
+    transform: rotate(-10deg);
+    z-index: 1;
+}

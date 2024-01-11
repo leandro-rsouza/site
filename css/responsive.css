@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1600px){
+    .container figure#img2{
+        right: 100px; 
+    }
+
+    .container figure#img4{
+        left: 100px; 
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    .container figure#img2{
+        right: 90px; 
+    }
+
+    .container figure#img4{
+        left: 90px; 
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    .container figure#img2{
+        right: 80px; 
+    }
+
+    .container figure#img4{
+        left: 80px; 
+    }
+}
+
+@media only screen and (max-width: 1350px){
+    .menu a{
+        margin: 0;
+    }
+
+    .headline{
+        flex: 100%;
+        height: 180px;
+    }
+
+    .container{
+        flex: 50%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .container figure#img2{
+        right: 210px; 
+    }
+
+    .container figure#img4{
+        left: 210px; 
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .container figure#img2{
+        right: 120px; 
+    }
+
+    .container figure#img4{
+        left: 120px; 
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .title{
+        text-align: center;
+        flex: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .menu{
+        text-align: center;
+        flex: 100%;
+        margin-left: 5%;
+        padding-left: 10%;
+    }
+
+    .container{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .menu{
+        padding-left: 15%;
+    }
+
+    .container{
+        margin-top: 100px;
+    }
+
+    .container figure{
+        position: absolute;
+        object-fit: cover;
+    }
+
+    .container figure#img1{
+        top: 0;
+        right: 0;
+        transform: rotate(0deg);
+        z-index: 1;
+    }
+
+    .container figure#img2{
+        top: 0;
+        right: 30px;
+        transform: rotate(0deg);
+        z-index: 2;
+    }
+
+    .container figure#img3{
+        top: 0;
+        transform: rotate(0deg);
+        z-index: 3;
+    }
+
+    .container figure#img4{
+        top: 0;
+        left: 30px;
+        transform: rotate(0deg);
+        z-index: 2; 
+    }
+    .container figure#img5{
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+        z-index: 1; 
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+    .container{
+        margin-top: 150px;
+    }
+}
